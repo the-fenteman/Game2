@@ -77,7 +77,7 @@ namespace Game2
                 switch (_player.playerdir)
                 {
                     case player.direction.up:
-                        _player.location.Y += 2;
+                        _player.location.Y += 1;
                         break;
                     case player.direction.right:
                         _player.location.X -= 1;
